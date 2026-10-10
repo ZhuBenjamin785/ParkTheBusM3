@@ -1,0 +1,1594 @@
+{
+  "name": "main-control",
+  "parts": [
+    {
+      "ref": "J1",
+      "value": "Teensy 4.1 left socket",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x24_P2.54mm_Vertical",
+      "pins": {
+        "1": [
+          "GND",
+          "GND"
+        ],
+        "2": [
+          "0",
+          "CAM_TX"
+        ],
+        "3": [
+          "1",
+          "CAM_RX"
+        ],
+        "4": [
+          "2",
+          "M1_PWM"
+        ],
+        "5": [
+          "3",
+          "M2_PWM"
+        ],
+        "6": [
+          "4",
+          "M3_PWM"
+        ],
+        "7": [
+          "5",
+          "M4_PWM"
+        ],
+        "8": [
+          "6",
+          "M5_PWM"
+        ],
+        "9": [
+          "7",
+          "M1_DIR"
+        ],
+        "10": [
+          "8",
+          "M2_DIR"
+        ],
+        "11": [
+          "9",
+          "M3_DIR"
+        ],
+        "12": [
+          "10",
+          "M4_DIR"
+        ],
+        "13": [
+          "11",
+          "M5_DIR"
+        ],
+        "14": [
+          "12",
+          "AUX_PWM"
+        ],
+        "15": [
+          "3V3",
+          "3V3"
+        ],
+        "16": [
+          "24",
+          "M2_EA"
+        ],
+        "17": [
+          "25",
+          "M2_EB"
+        ],
+        "18": [
+          "26",
+          "M3_EA"
+        ],
+        "19": [
+          "27",
+          "M3_EB"
+        ],
+        "20": [
+          "28",
+          "M4_EA"
+        ],
+        "21": [
+          "29",
+          "M4_EB"
+        ],
+        "22": [
+          "30",
+          "M5_EA"
+        ],
+        "23": [
+          "31",
+          "M5_EB"
+        ],
+        "24": [
+          "32",
+          "REF_PLAY"
+        ]
+      },
+      "types": {},
+      "uuid": "9ba29862-3d99-5e3e-b4c6-b494ccb120b4",
+      "x": -24,
+      "y": 29.21,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J2",
+      "value": "Teensy 4.1 right socket",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x24_P2.54mm_Vertical",
+      "pins": {
+        "1": [
+          "5V",
+          "5V"
+        ],
+        "2": [
+          "GND",
+          "GND"
+        ],
+        "3": [
+          "3V3",
+          "3V3"
+        ],
+        "4": [
+          "23",
+          "M1_EB"
+        ],
+        "5": [
+          "22",
+          "M1_EA"
+        ],
+        "6": [
+          "21",
+          "M5_CS"
+        ],
+        "7": [
+          "20",
+          "M4_CS"
+        ],
+        "8": [
+          "19",
+          "SCL"
+        ],
+        "9": [
+          "18",
+          "SDA"
+        ],
+        "10": [
+          "17",
+          "M3_CS"
+        ],
+        "11": [
+          "16",
+          "M2_CS"
+        ],
+        "12": [
+          "15",
+          "M1_CS"
+        ],
+        "13": [
+          "14",
+          "LINE_ANALOG"
+        ],
+        "14": [
+          "13",
+          "DRIVER_FAULT"
+        ],
+        "15": [
+          "GND",
+          "GND"
+        ],
+        "16": [
+          "41",
+          "AUX_A17"
+        ],
+        "17": [
+          "40",
+          "AUX_A16"
+        ],
+        "18": [
+          "39",
+          "LINE_CTRL"
+        ],
+        "19": [
+          "38",
+          "BAT_SENSE"
+        ],
+        "20": [
+          "37",
+          "LINE_S3"
+        ],
+        "21": [
+          "36",
+          "LINE_S2"
+        ],
+        "22": [
+          "35",
+          "LINE_S1"
+        ],
+        "23": [
+          "34",
+          "LINE_S0"
+        ],
+        "24": [
+          "33",
+          "MCU_ENABLE"
+        ]
+      },
+      "types": {},
+      "uuid": "ea4775c4-6da2-5052-a273-09c184808ec3",
+      "x": -8.76,
+      "y": 29.21,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J3",
+      "value": "M1 G2 LOGIC",
+      "footprint": "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "GND",
+          "GND"
+        ],
+        "2": [
+          "M1_PWM",
+          "M1_PWM"
+        ],
+        "3": [
+          "M1_DIR",
+          "M1_DIR"
+        ],
+        "4": [
+          "DRIVE_ENABLE",
+          "DRIVE_ENABLE"
+        ],
+        "5": [
+          "M1_CS",
+          "M1_CS"
+        ],
+        "6": [
+          "DRIVER_FAULT",
+          "DRIVER_FAULT"
+        ]
+      },
+      "types": {},
+      "uuid": "e10ba6b5-0bc4-5d24-8578-cd846bc886b6",
+      "x": -44,
+      "y": 30,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J4",
+      "value": "M2 G2 LOGIC",
+      "footprint": "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "GND",
+          "GND"
+        ],
+        "2": [
+          "M2_PWM",
+          "M2_PWM"
+        ],
+        "3": [
+          "M2_DIR",
+          "M2_DIR"
+        ],
+        "4": [
+          "DRIVE_ENABLE",
+          "DRIVE_ENABLE"
+        ],
+        "5": [
+          "M2_CS",
+          "M2_CS"
+        ],
+        "6": [
+          "DRIVER_FAULT",
+          "DRIVER_FAULT"
+        ]
+      },
+      "types": {},
+      "uuid": "644b01e9-32c6-593d-a1aa-a6474ad5166b",
+      "x": -48,
+      "y": -20,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J5",
+      "value": "M3 G2 LOGIC",
+      "footprint": "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "GND",
+          "GND"
+        ],
+        "2": [
+          "M3_PWM",
+          "M3_PWM"
+        ],
+        "3": [
+          "M3_DIR",
+          "M3_DIR"
+        ],
+        "4": [
+          "DRIVE_ENABLE",
+          "DRIVE_ENABLE"
+        ],
+        "5": [
+          "M3_CS",
+          "M3_CS"
+        ],
+        "6": [
+          "DRIVER_FAULT",
+          "DRIVER_FAULT"
+        ]
+      },
+      "types": {},
+      "uuid": "033c88c5-8c84-5f2e-bfa3-425b6320d1e5",
+      "x": -49,
+      "y": -31,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J6",
+      "value": "M4 G2 LOGIC",
+      "footprint": "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "GND",
+          "GND"
+        ],
+        "2": [
+          "M4_PWM",
+          "M4_PWM"
+        ],
+        "3": [
+          "M4_DIR",
+          "M4_DIR"
+        ],
+        "4": [
+          "DRIVE_ENABLE",
+          "DRIVE_ENABLE"
+        ],
+        "5": [
+          "M4_CS",
+          "M4_CS"
+        ],
+        "6": [
+          "DRIVER_FAULT",
+          "DRIVER_FAULT"
+        ]
+      },
+      "types": {},
+      "uuid": "3e262d9c-2282-586a-b36b-a7991f0dda32",
+      "x": 1,
+      "y": -33,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J7",
+      "value": "M5 G2 LOGIC",
+      "footprint": "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "GND",
+          "GND"
+        ],
+        "2": [
+          "M5_PWM",
+          "M5_PWM"
+        ],
+        "3": [
+          "M5_DIR",
+          "M5_DIR"
+        ],
+        "4": [
+          "DRIVE_ENABLE",
+          "DRIVE_ENABLE"
+        ],
+        "5": [
+          "M5_CS",
+          "M5_CS"
+        ],
+        "6": [
+          "DRIVER_FAULT",
+          "DRIVER_FAULT"
+        ]
+      },
+      "types": {},
+      "uuid": "16a09945-417c-5e5b-b533-109dc2842d10",
+      "x": 3,
+      "y": 30,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J8",
+      "value": "M1 ENCODER 5V",
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "5V",
+          "5V"
+        ],
+        "2": [
+          "GND",
+          "GND"
+        ],
+        "3": [
+          "M1_EA_RAW",
+          "M1_EA_RAW"
+        ],
+        "4": [
+          "M1_EB_RAW",
+          "M1_EB_RAW"
+        ]
+      },
+      "types": {},
+      "uuid": "5c40eca8-55eb-5584-9988-c47dbb0b5232",
+      "x": -36,
+      "y": 37,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J9",
+      "value": "M2 ENCODER 5V",
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "5V",
+          "5V"
+        ],
+        "2": [
+          "GND",
+          "GND"
+        ],
+        "3": [
+          "M2_EA_RAW",
+          "M2_EA_RAW"
+        ],
+        "4": [
+          "M2_EB_RAW",
+          "M2_EB_RAW"
+        ]
+      },
+      "types": {},
+      "uuid": "7ad0c5d2-d33f-520a-88ff-01e355029fc3",
+      "x": -49,
+      "y": -10,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J10",
+      "value": "M3 ENCODER 5V",
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "5V",
+          "5V"
+        ],
+        "2": [
+          "GND",
+          "GND"
+        ],
+        "3": [
+          "M3_EA_RAW",
+          "M3_EA_RAW"
+        ],
+        "4": [
+          "M3_EB_RAW",
+          "M3_EB_RAW"
+        ]
+      },
+      "types": {},
+      "uuid": "5fe57917-9bcb-595b-9216-bed6fa96e3e7",
+      "x": -27,
+      "y": -37,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J11",
+      "value": "M4 ENCODER 5V",
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "5V",
+          "5V"
+        ],
+        "2": [
+          "GND",
+          "GND"
+        ],
+        "3": [
+          "M4_EA_RAW",
+          "M4_EA_RAW"
+        ],
+        "4": [
+          "M4_EB_RAW",
+          "M4_EB_RAW"
+        ]
+      },
+      "types": {},
+      "uuid": "605a78f3-0a7d-5b23-afab-54734537318b",
+      "x": -2,
+      "y": -44,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J12",
+      "value": "M5 ENCODER 5V",
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "5V",
+          "5V"
+        ],
+        "2": [
+          "GND",
+          "GND"
+        ],
+        "3": [
+          "M5_EA_RAW",
+          "M5_EA_RAW"
+        ],
+        "4": [
+          "M5_EB_RAW",
+          "M5_EB_RAW"
+        ]
+      },
+      "types": {},
+      "uuid": "969f6ab1-5518-5d0d-93c1-a63dd95cc0d7",
+      "x": 5,
+      "y": 44,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J13",
+      "value": "5V LOGIC INPUT",
+      "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "5V",
+          "5V"
+        ],
+        "2": [
+          "GND",
+          "GND"
+        ]
+      },
+      "types": {},
+      "uuid": "c6b5f9fc-3b63-5e6c-bb82-b25aff60027f",
+      "x": -15,
+      "y": 46,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J14",
+      "value": "OPENMV UART ONLY",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "GND",
+          "GND"
+        ],
+        "2": [
+          "CAM_RX",
+          "CAM_RX"
+        ],
+        "3": [
+          "CAM_TX",
+          "CAM_TX"
+        ]
+      },
+      "types": {},
+      "uuid": "1a42d075-b323-51ab-a48e-62f8c89069e6",
+      "x": 3,
+      "y": 18,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J15",
+      "value": "IMU 3V3",
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "3V3",
+          "3V3"
+        ],
+        "2": [
+          "GND",
+          "GND"
+        ],
+        "3": [
+          "SDA",
+          "SDA"
+        ],
+        "4": [
+          "SCL",
+          "SCL"
+        ]
+      },
+      "types": {},
+      "uuid": "e16f3854-e9ef-58aa-83b9-a73986663fdd",
+      "x": -3,
+      "y": 5,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J16",
+      "value": "LINE HARNESS",
+      "footprint": "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "3V3",
+          "3V3"
+        ],
+        "2": [
+          "GND",
+          "GND"
+        ],
+        "3": [
+          "LINE_ANALOG",
+          "LINE_ANALOG"
+        ],
+        "4": [
+          "LINE_S0",
+          "LINE_S0"
+        ],
+        "5": [
+          "LINE_S1",
+          "LINE_S1"
+        ],
+        "6": [
+          "LINE_S2",
+          "LINE_S2"
+        ],
+        "7": [
+          "LINE_S3",
+          "LINE_S3"
+        ],
+        "8": [
+          "LINE_CTRL",
+          "LINE_CTRL"
+        ]
+      },
+      "types": {},
+      "uuid": "6e7ebce5-a1e7-5366-8608-4f973a21e07d",
+      "x": -4,
+      "y": -8,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J17",
+      "value": "REFEREE GPIO",
+      "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "GND",
+          "GND"
+        ],
+        "2": [
+          "REF_PLAY",
+          "REF_PLAY"
+        ]
+      },
+      "types": {},
+      "uuid": "8aae6606-5be4-5e2e-8e3a-3f883480360e",
+      "x": -34,
+      "y": 16,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J18",
+      "value": "BATTERY MONITOR",
+      "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "VBAT_SENSE_IN",
+          "VBAT_SENSE_IN"
+        ],
+        "2": [
+          "GND",
+          "GND"
+        ]
+      },
+      "types": {},
+      "uuid": "ac85bcbd-ae41-599e-adfb-75aad562889c",
+      "x": -34,
+      "y": -9,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "J19",
+      "value": "AUX LOGIC ONLY",
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "pins": {
+        "1": [
+          "GND",
+          "GND"
+        ],
+        "2": [
+          "AUX_PWM",
+          "AUX_PWM"
+        ],
+        "3": [
+          "AUX_A16",
+          "AUX_A16"
+        ],
+        "4": [
+          "AUX_A17",
+          "AUX_A17"
+        ]
+      },
+      "types": {},
+      "uuid": "016689ef-7de1-5f59-bedf-12aa30b29688",
+      "x": -20,
+      "y": -44,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "U1",
+      "value": "SN74LVC1G08DBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "pins": {
+        "1": [
+          "A",
+          "REF_PLAY"
+        ],
+        "2": [
+          "B",
+          "MCU_ENABLE"
+        ],
+        "3": [
+          "GND",
+          "GND"
+        ],
+        "4": [
+          "Y",
+          "DRIVE_ENABLE"
+        ],
+        "5": [
+          "VCC",
+          "3V3"
+        ]
+      },
+      "types": {
+        "1": "input",
+        "2": "input",
+        "4": "output"
+      },
+      "uuid": "4deeed47-7593-5bfe-80f5-a19d4a1c0f00",
+      "x": -33,
+      "y": 6,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "U2",
+      "value": "SN74LVC245APWR",
+      "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+      "pins": {
+        "1": [
+          "DIR",
+          "3V3"
+        ],
+        "10": [
+          "GND",
+          "GND"
+        ],
+        "19": [
+          "OE",
+          "GND"
+        ],
+        "20": [
+          "VCC",
+          "3V3"
+        ],
+        "2": [
+          "A1",
+          "M1_EA_RAW"
+        ],
+        "18": [
+          "B1",
+          "M1_EA"
+        ],
+        "3": [
+          "A2",
+          "M1_EB_RAW"
+        ],
+        "17": [
+          "B2",
+          "M1_EB"
+        ],
+        "4": [
+          "A3",
+          "M2_EA_RAW"
+        ],
+        "16": [
+          "B3",
+          "M2_EA"
+        ],
+        "5": [
+          "A4",
+          "M2_EB_RAW"
+        ],
+        "15": [
+          "B4",
+          "M2_EB"
+        ],
+        "6": [
+          "A5",
+          "M3_EA_RAW"
+        ],
+        "14": [
+          "B5",
+          "M3_EA"
+        ],
+        "7": [
+          "A6",
+          "M3_EB_RAW"
+        ],
+        "13": [
+          "B6",
+          "M3_EB"
+        ],
+        "8": [
+          "A7",
+          "M4_EA_RAW"
+        ],
+        "12": [
+          "B7",
+          "M4_EA"
+        ],
+        "9": [
+          "A8",
+          "M4_EB_RAW"
+        ],
+        "11": [
+          "B8",
+          "M4_EB"
+        ]
+      },
+      "types": {
+        "2": "input",
+        "3": "input",
+        "4": "input",
+        "5": "input",
+        "6": "input",
+        "7": "input",
+        "8": "input",
+        "9": "input"
+      },
+      "uuid": "3172324e-ad79-597b-a74d-29b9faf518a5",
+      "x": 8,
+      "y": 0,
+      "angle": 0,
+      "back": true
+    },
+    {
+      "ref": "U3",
+      "value": "SN74LVC245APWR",
+      "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+      "pins": {
+        "1": [
+          "DIR",
+          "3V3"
+        ],
+        "10": [
+          "GND",
+          "GND"
+        ],
+        "19": [
+          "OE",
+          "GND"
+        ],
+        "20": [
+          "VCC",
+          "3V3"
+        ],
+        "2": [
+          "A1",
+          "M5_EA_RAW"
+        ],
+        "18": [
+          "B1",
+          "M5_EA"
+        ],
+        "3": [
+          "A2",
+          "M5_EB_RAW"
+        ],
+        "17": [
+          "B2",
+          "M5_EB"
+        ],
+        "4": [
+          "A3",
+          "GND"
+        ],
+        "16": [
+          "B3",
+          null
+        ],
+        "5": [
+          "A4",
+          "GND"
+        ],
+        "15": [
+          "B4",
+          null
+        ],
+        "6": [
+          "A5",
+          "GND"
+        ],
+        "14": [
+          "B5",
+          null
+        ],
+        "7": [
+          "A6",
+          "GND"
+        ],
+        "13": [
+          "B6",
+          null
+        ],
+        "8": [
+          "A7",
+          "GND"
+        ],
+        "12": [
+          "B7",
+          null
+        ],
+        "9": [
+          "A8",
+          "GND"
+        ],
+        "11": [
+          "B8",
+          null
+        ]
+      },
+      "types": {
+        "2": "input",
+        "3": "input",
+        "4": "input",
+        "5": "input",
+        "6": "input",
+        "7": "input",
+        "8": "input",
+        "9": "input"
+      },
+      "uuid": "99abb51c-4883-5509-a5b7-cebc28e805ee",
+      "x": 8,
+      "y": 10,
+      "angle": 0,
+      "back": true
+    },
+    {
+      "ref": "R1",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": [
+          "1",
+          "REF_PLAY"
+        ],
+        "2": [
+          "2",
+          "GND"
+        ]
+      },
+      "types": {},
+      "uuid": "27db9f40-2294-578d-b8fe-cf68b6ecf71c",
+      "x": -37,
+      "y": 9,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "R2",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": [
+          "1",
+          "MCU_ENABLE"
+        ],
+        "2": [
+          "2",
+          "GND"
+        ]
+      },
+      "types": {},
+      "uuid": "0a5cc61c-81fe-5057-b8f9-d8f706cdbdfa",
+      "x": -37,
+      "y": 5,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "R3",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": [
+          "1",
+          "DRIVE_ENABLE"
+        ],
+        "2": [
+          "2",
+          "GND"
+        ]
+      },
+      "types": {},
+      "uuid": "cc62a40f-0a9a-56ce-b146-ae829a85c210",
+      "x": -37,
+      "y": 1,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "R4",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": [
+          "1",
+          "DRIVER_FAULT"
+        ],
+        "2": [
+          "2",
+          "3V3"
+        ]
+      },
+      "types": {},
+      "uuid": "e4da39a9-1e6c-5cb1-a788-23f89c821ad8",
+      "x": -35,
+      "y": -3,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "R5",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": [
+          "1",
+          "VBAT_SENSE_IN"
+        ],
+        "2": [
+          "2",
+          "BAT_SENSE"
+        ]
+      },
+      "types": {},
+      "uuid": "6210796d-5ddd-5351-8514-0f1c8316efba",
+      "x": 5,
+      "y": -17,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "R6",
+      "value": "27k 1%",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": [
+          "1",
+          "BAT_SENSE"
+        ],
+        "2": [
+          "2",
+          "GND"
+        ]
+      },
+      "types": {},
+      "uuid": "57465801-054d-56bf-b821-5fda4f2e78eb",
+      "x": 5,
+      "y": -20,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "C1",
+      "value": "100n 16V",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": [
+          "1",
+          "3V3"
+        ],
+        "2": [
+          "2",
+          "GND"
+        ]
+      },
+      "types": {},
+      "uuid": "fda86dfc-c8aa-5195-b982-77c94389718e",
+      "x": -31,
+      "y": 2,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "C2",
+      "value": "100n 16V",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": [
+          "1",
+          "BAT_SENSE"
+        ],
+        "2": [
+          "2",
+          "GND"
+        ]
+      },
+      "types": {},
+      "uuid": "524be97d-7592-5691-85b2-332bdb4f0af6",
+      "x": 5,
+      "y": -23,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "C3",
+      "value": "10u 10V",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": [
+          "1",
+          "5V"
+        ],
+        "2": [
+          "2",
+          "GND"
+        ]
+      },
+      "types": {},
+      "uuid": "8fbad04e-ae1d-5d56-9db7-6dd198f15b1f",
+      "x": -18,
+      "y": 40,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "C4",
+      "value": "10u 10V",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": [
+          "1",
+          "3V3"
+        ],
+        "2": [
+          "2",
+          "GND"
+        ]
+      },
+      "types": {},
+      "uuid": "e87d49a8-3fb5-5d74-9bb4-8701452ff1c9",
+      "x": -11,
+      "y": 37,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "C5",
+      "value": "100n 16V",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": [
+          "1",
+          "3V3"
+        ],
+        "2": [
+          "2",
+          "GND"
+        ]
+      },
+      "types": {},
+      "uuid": "3bd639b2-1706-5e06-b2df-bb0d517ad60b",
+      "x": 14,
+      "y": 0,
+      "angle": 0,
+      "back": false
+    },
+    {
+      "ref": "C6",
+      "value": "100n 16V",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": [
+          "1",
+          "3V3"
+        ],
+        "2": [
+          "2",
+          "GND"
+        ]
+      },
+      "types": {},
+      "uuid": "8d94a2b5-ad24-5ac6-aa7e-6994d5662e46",
+      "x": 14,
+      "y": 10,
+      "angle": 0,
+      "back": false
+    }
+  ],
+  "outline": [
+    {
+      "outer": true,
+      "segments": [
+        {
+          "kind": "arc",
+          "start": [
+            44.49466101903625,
+            -40.25202033191695
+          ],
+          "mid": [
+            60.0,
+            0.0
+          ],
+          "end": [
+            44.49466101903625,
+            40.25202033191695
+          ],
+          "center": [
+            0,
+            0
+          ],
+          "radius": 60
+        },
+        {
+          "kind": "line",
+          "start": [
+            44.49466101903625,
+            40.25202033191695
+          ],
+          "end": [
+            46.669047558312144,
+            42.426406871192846
+          ]
+        },
+        {
+          "kind": "arc",
+          "start": [
+            46.669047558312144,
+            42.426406871192846
+          ],
+          "mid": [
+            46.669047558312144,
+            46.66904755831214
+          ],
+          "end": [
+            42.42640687119285,
+            46.66904755831214
+          ],
+          "center": [
+            44.5477272147525,
+            44.54772721475249
+          ],
+          "radius": 3
+        },
+        {
+          "kind": "line",
+          "start": [
+            42.42640687119285,
+            46.66904755831214
+          ],
+          "end": [
+            40.25202033191695,
+            44.49466101903625
+          ]
+        },
+        {
+          "kind": "arc",
+          "start": [
+            40.25202033191695,
+            44.49466101903625
+          ],
+          "mid": [
+            3.67394039744206e-15,
+            60.0
+          ],
+          "end": [
+            -40.252020331916945,
+            44.49466101903626
+          ],
+          "center": [
+            0,
+            0
+          ],
+          "radius": 60
+        },
+        {
+          "kind": "line",
+          "start": [
+            -40.252020331916945,
+            44.49466101903626
+          ],
+          "end": [
+            -42.426406871192846,
+            46.669047558312144
+          ]
+        },
+        {
+          "kind": "arc",
+          "start": [
+            -42.426406871192846,
+            46.669047558312144
+          ],
+          "mid": [
+            -46.66904755831214,
+            46.669047558312144
+          ],
+          "end": [
+            -46.66904755831214,
+            42.42640687119285
+          ],
+          "center": [
+            -44.54772721475249,
+            44.5477272147525
+          ],
+          "radius": 3
+        },
+        {
+          "kind": "line",
+          "start": [
+            -46.66904755831214,
+            42.42640687119285
+          ],
+          "end": [
+            -44.49466101903625,
+            40.25202033191695
+          ]
+        },
+        {
+          "kind": "arc",
+          "start": [
+            -44.49466101903625,
+            40.25202033191695
+          ],
+          "mid": [
+            -60.0,
+            7.34788079488412e-15
+          ],
+          "end": [
+            -44.494661019036265,
+            -40.25202033191694
+          ],
+          "center": [
+            0,
+            0
+          ],
+          "radius": 60
+        },
+        {
+          "kind": "line",
+          "start": [
+            -44.494661019036265,
+            -40.25202033191694
+          ],
+          "end": [
+            -46.66904755831215,
+            -42.426406871192846
+          ]
+        },
+        {
+          "kind": "arc",
+          "start": [
+            -46.66904755831215,
+            -42.426406871192846
+          ],
+          "mid": [
+            -46.66904755831215,
+            -46.66904755831214
+          ],
+          "end": [
+            -42.42640687119287,
+            -46.66904755831214
+          ],
+          "center": [
+            -44.547727214752506,
+            -44.54772721475249
+          ],
+          "radius": 3
+        },
+        {
+          "kind": "line",
+          "start": [
+            -42.42640687119287,
+            -46.66904755831214
+          ],
+          "end": [
+            -40.25202033191695,
+            -44.49466101903625
+          ]
+        },
+        {
+          "kind": "arc",
+          "start": [
+            -40.25202033191695,
+            -44.49466101903625
+          ],
+          "mid": [
+            -1.1021821192326178e-14,
+            -60.0
+          ],
+          "end": [
+            40.25202033191694,
+            -44.494661019036265
+          ],
+          "center": [
+            0,
+            0
+          ],
+          "radius": 60
+        },
+        {
+          "kind": "line",
+          "start": [
+            40.25202033191694,
+            -44.494661019036265
+          ],
+          "end": [
+            42.42640687119284,
+            -46.66904755831215
+          ]
+        },
+        {
+          "kind": "arc",
+          "start": [
+            42.42640687119284,
+            -46.66904755831215
+          ],
+          "mid": [
+            46.66904755831213,
+            -46.66904755831215
+          ],
+          "end": [
+            46.66904755831213,
+            -42.42640687119287
+          ],
+          "center": [
+            44.547727214752484,
+            -44.547727214752506
+          ],
+          "radius": 3
+        },
+        {
+          "kind": "line",
+          "start": [
+            46.66904755831213,
+            -42.42640687119287
+          ],
+          "end": [
+            44.49466101903625,
+            -40.25202033191696
+          ]
+        }
+      ]
+    },
+    {
+      "outer": false,
+      "segments": [
+        {
+          "kind": "line",
+          "start": [
+            18.5,
+            -32
+          ],
+          "end": [
+            24.547875144394,
+            -32
+          ]
+        },
+        {
+          "kind": "line",
+          "start": [
+            24.547875144394,
+            -32
+          ],
+          "end": [
+            24.547875144394,
+            -19
+          ]
+        },
+        {
+          "kind": "line",
+          "start": [
+            24.547875144394,
+            -19
+          ],
+          "end": [
+            40,
+            -19
+          ]
+        },
+        {
+          "kind": "arc",
+          "start": [
+            40.000000000000014,
+            -19.00000000000002
+          ],
+          "mid": [
+            46.59820526781424,
+            2.773937572197
+          ],
+          "end": [
+            40.000000000000014,
+            24.54787514439402
+          ],
+          "center": [
+            7.37233632742414,
+            2.773937572197
+          ],
+          "radius": 39.2258689403901
+        },
+        {
+          "kind": "line",
+          "start": [
+            40,
+            24.547875144394
+          ],
+          "end": [
+            24.547875144394,
+            24.547875144394
+          ]
+        },
+        {
+          "kind": "line",
+          "start": [
+            24.547875144394,
+            24.547875144394
+          ],
+          "end": [
+            24.547875144394,
+            39
+          ]
+        },
+        {
+          "kind": "line",
+          "start": [
+            24.547875144394,
+            39
+          ],
+          "end": [
+            18.5,
+            39
+          ]
+        },
+        {
+          "kind": "line",
+          "start": [
+            18.5,
+            39
+          ],
+          "end": [
+            18.5,
+            -32
+          ]
+        }
+      ]
+    }
+  ]
+}

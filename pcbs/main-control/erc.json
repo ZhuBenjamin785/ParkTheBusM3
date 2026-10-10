@@ -1,0 +1,967 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-10T14:52:51",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/eb983103-9f21-5ec7-b918-a8d7e1730fa6",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 3 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 3.4492,
+                                "y": 4.7262
+                            },
+                            "uuid": "c20bb97f-d848-4517-aa05-5b834307babe"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 5 [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 3.4492,
+                                "y": 4.777
+                            },
+                            "uuid": "3e81b162-c627-4839-84c6-7d257e034f03"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Pin 1 [GND, Passive, Line]",
+                            "pos": {
+                                "x": 0.2492,
+                                "y": 0.3254
+                            },
+                            "uuid": "0e39fc07-1bcc-4a90-b950-5386bf8a5c5e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J6 Pin 1 [GND, Passive, Line]",
+                            "pos": {
+                                "x": 0.2492,
+                                "y": 1.7754
+                            },
+                            "uuid": "41157015-15ef-435c-ac32-a15200ac809f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J11 Pin 1 [3V3, Passive, Line]",
+                            "pos": {
+                                "x": 0.2492,
+                                "y": 3.2254
+                            },
+                            "uuid": "4a624f29-c5bc-4b89-affe-01805699fcd5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J16 Pin 1 [3V3, Passive, Line]",
+                            "pos": {
+                                "x": 0.2492,
+                                "y": 4.6754
+                            },
+                            "uuid": "74a1b772-4102-4c20-b5ef-8fc8af612f4a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R1 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 0.2492,
+                                "y": 6.1254
+                            },
+                            "uuid": "5afe23d9-6468-49b0-b7df-827f0e935227"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R6 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 0.2492,
+                                "y": 7.5754
+                            },
+                            "uuid": "b56cb29b-b3e4-4557-8114-d4a1aaf34274"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [J1]",
+                            "pos": {
+                                "x": 0.3,
+                                "y": 0.3
+                            },
+                            "uuid": "9ba29862-3d99-5e3e-b4c6-b494ccb120b4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J6 [J6]",
+                            "pos": {
+                                "x": 0.3,
+                                "y": 1.75
+                            },
+                            "uuid": "3e262d9c-2282-586a-b36b-a7991f0dda32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J11 [J11]",
+                            "pos": {
+                                "x": 0.3,
+                                "y": 3.2
+                            },
+                            "uuid": "605a78f3-0a7d-5b23-afab-54734537318b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J16 [J16]",
+                            "pos": {
+                                "x": 0.3,
+                                "y": 4.65
+                            },
+                            "uuid": "6e7ebce5-a1e7-5366-8608-4f973a21e07d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol R1 [R1]",
+                            "pos": {
+                                "x": 0.3,
+                                "y": 6.1
+                            },
+                            "uuid": "27db9f40-2294-578d-b8fe-cf68b6ecf71c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol R6 [R6]",
+                            "pos": {
+                                "x": 0.3,
+                                "y": 7.55
+                            },
+                            "uuid": "57465801-054d-56bf-b821-5fda4f2e78eb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J2 Pin 1 [5V, Passive, Line]",
+                            "pos": {
+                                "x": 1.0492,
+                                "y": 0.3254
+                            },
+                            "uuid": "22afac2f-e574-4e83-a075-1097ab0119b9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J7 Pin 1 [GND, Passive, Line]",
+                            "pos": {
+                                "x": 1.0492,
+                                "y": 1.7754
+                            },
+                            "uuid": "fb7b896d-bb34-437c-b323-7815c1f92b17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J12 Pin 1 [3V3, Passive, Line]",
+                            "pos": {
+                                "x": 1.0492,
+                                "y": 3.2254
+                            },
+                            "uuid": "68b29b5b-c30f-4396-bf98-ed004058747c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J17 Pin 1 [GND, Passive, Line]",
+                            "pos": {
+                                "x": 1.0492,
+                                "y": 4.6754
+                            },
+                            "uuid": "9c4ecd45-48f5-4b52-97ee-52039c8a9c66"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R2 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 1.0492,
+                                "y": 6.1254
+                            },
+                            "uuid": "a1173c0e-0c45-4597-b05e-ae0d29cf10b6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C1 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 1.0492,
+                                "y": 7.5754
+                            },
+                            "uuid": "fae0585b-8103-4c7b-9857-df1f1b1d5bc2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [J2]",
+                            "pos": {
+                                "x": 1.1,
+                                "y": 0.3
+                            },
+                            "uuid": "ea4775c4-6da2-5052-a273-09c184808ec3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J7 [J7]",
+                            "pos": {
+                                "x": 1.1,
+                                "y": 1.75
+                            },
+                            "uuid": "16a09945-417c-5e5b-b533-109dc2842d10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J12 [J12]",
+                            "pos": {
+                                "x": 1.1,
+                                "y": 3.2
+                            },
+                            "uuid": "969f6ab1-5518-5d0d-93c1-a63dd95cc0d7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J17 [J17]",
+                            "pos": {
+                                "x": 1.1,
+                                "y": 4.65
+                            },
+                            "uuid": "8aae6606-5be4-5e2e-8e3a-3f883480360e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol R2 [R2]",
+                            "pos": {
+                                "x": 1.1,
+                                "y": 6.1
+                            },
+                            "uuid": "0a5cc61c-81fe-5057-b8f9-d8f706cdbdfa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol C1 [C1]",
+                            "pos": {
+                                "x": 1.1,
+                                "y": 7.55
+                            },
+                            "uuid": "fda86dfc-c8aa-5195-b982-77c94389718e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J3 Pin 1 [GND, Passive, Line]",
+                            "pos": {
+                                "x": 1.8492,
+                                "y": 0.3254
+                            },
+                            "uuid": "69011514-189a-4121-8b7d-578d4f15ca0c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J8 Pin 1 [3V3, Passive, Line]",
+                            "pos": {
+                                "x": 1.8492,
+                                "y": 1.7754
+                            },
+                            "uuid": "60697571-6b42-4bbe-a332-4622da075e7b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J13 Pin 1 [5V, Passive, Line]",
+                            "pos": {
+                                "x": 1.8492,
+                                "y": 3.2254
+                            },
+                            "uuid": "63a60e7a-031f-436d-a58f-9943301b6631"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J18 Pin 1 [VBAT_SENSE_IN, Passive, Line]",
+                            "pos": {
+                                "x": 1.8492,
+                                "y": 4.6754
+                            },
+                            "uuid": "49d04a5f-8d7d-4de6-aa59-ca3fa0851fd5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R3 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 1.8492,
+                                "y": 6.1254
+                            },
+                            "uuid": "01e15994-2357-4b9e-b5a9-33a26eb0bbbd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C2 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 1.8492,
+                                "y": 7.5754
+                            },
+                            "uuid": "1a207f26-7ecc-440b-8b69-9aabda3b7e29"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J3 [J3]",
+                            "pos": {
+                                "x": 1.9,
+                                "y": 0.3
+                            },
+                            "uuid": "e10ba6b5-0bc4-5d24-8578-cd846bc886b6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J8 [J8]",
+                            "pos": {
+                                "x": 1.9,
+                                "y": 1.75
+                            },
+                            "uuid": "5c40eca8-55eb-5584-9988-c47dbb0b5232"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J13 [J13]",
+                            "pos": {
+                                "x": 1.9,
+                                "y": 3.2
+                            },
+                            "uuid": "c6b5f9fc-3b63-5e6c-bb82-b25aff60027f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J18 [J18]",
+                            "pos": {
+                                "x": 1.9,
+                                "y": 4.65
+                            },
+                            "uuid": "ac85bcbd-ae41-599e-adfb-75aad562889c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol R3 [R3]",
+                            "pos": {
+                                "x": 1.9,
+                                "y": 6.1
+                            },
+                            "uuid": "cc62a40f-0a9a-56ce-b146-ae829a85c210"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol C2 [C2]",
+                            "pos": {
+                                "x": 1.9,
+                                "y": 7.55
+                            },
+                            "uuid": "524be97d-7592-5691-85b2-332bdb4f0af6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J4 Pin 1 [GND, Passive, Line]",
+                            "pos": {
+                                "x": 2.6492,
+                                "y": 0.3254
+                            },
+                            "uuid": "b45a9fd4-f822-4f9b-8ac4-74fb63f89f91"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J9 Pin 1 [3V3, Passive, Line]",
+                            "pos": {
+                                "x": 2.6492,
+                                "y": 1.7754
+                            },
+                            "uuid": "ea69c756-9ff0-4000-a1dc-4142c9772d8a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J14 Pin 1 [GND, Passive, Line]",
+                            "pos": {
+                                "x": 2.6492,
+                                "y": 3.2254
+                            },
+                            "uuid": "ba61cdb8-98f0-469e-8a17-b351e6cdfb9f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J19 Pin 1 [GND, Passive, Line]",
+                            "pos": {
+                                "x": 2.6492,
+                                "y": 4.6754
+                            },
+                            "uuid": "3ad35a4a-2489-4fb0-ac46-199348606797"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R4 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 2.6492,
+                                "y": 6.1254
+                            },
+                            "uuid": "ec5c5837-b609-4d38-879a-773e7a28fb34"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C3 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 2.6492,
+                                "y": 7.5754
+                            },
+                            "uuid": "810d62de-d947-4925-b766-5113d470a70f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J4 [J4]",
+                            "pos": {
+                                "x": 2.7,
+                                "y": 0.3
+                            },
+                            "uuid": "644b01e9-32c6-593d-a1aa-a6474ad5166b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J9 [J9]",
+                            "pos": {
+                                "x": 2.7,
+                                "y": 1.75
+                            },
+                            "uuid": "7ad0c5d2-d33f-520a-88ff-01e355029fc3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J14 [J14]",
+                            "pos": {
+                                "x": 2.7,
+                                "y": 3.2
+                            },
+                            "uuid": "1a42d075-b323-51ab-a48e-62f8c89069e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J19 [J19]",
+                            "pos": {
+                                "x": 2.7,
+                                "y": 4.65
+                            },
+                            "uuid": "016689ef-7de1-5f59-bedf-12aa30b29688"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol R4 [R4]",
+                            "pos": {
+                                "x": 2.7,
+                                "y": 6.1
+                            },
+                            "uuid": "e4da39a9-1e6c-5cb1-a788-23f89c821ad8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol C3 [C3]",
+                            "pos": {
+                                "x": 2.7,
+                                "y": 7.55
+                            },
+                            "uuid": "8fbad04e-ae1d-5d56-9db7-6dd198f15b1f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J5 Pin 1 [GND, Passive, Line]",
+                            "pos": {
+                                "x": 3.4492,
+                                "y": 0.3254
+                            },
+                            "uuid": "3936cb5d-1769-494c-9365-3dd1bdbd09f4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J10 Pin 1 [3V3, Passive, Line]",
+                            "pos": {
+                                "x": 3.4492,
+                                "y": 1.7754
+                            },
+                            "uuid": "7e6b81cf-5783-4f46-8459-8d39efc62e06"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J15 Pin 1 [3V3, Passive, Line]",
+                            "pos": {
+                                "x": 3.4492,
+                                "y": 3.2254
+                            },
+                            "uuid": "ec44c3c6-6cf8-41a5-854f-aa2cb15df164"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 1 [A, Input, Line]",
+                            "pos": {
+                                "x": 3.4492,
+                                "y": 4.6754
+                            },
+                            "uuid": "11928507-9b76-479c-ba13-9ce9a4e09022"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R5 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 3.4492,
+                                "y": 6.1254
+                            },
+                            "uuid": "76e50090-2dc9-4294-ba72-776fef5abc51"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C4 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 3.4492,
+                                "y": 7.5754
+                            },
+                            "uuid": "0b379a15-5a92-41ed-be64-56c8b701d6a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J5 [J5]",
+                            "pos": {
+                                "x": 3.5,
+                                "y": 0.3
+                            },
+                            "uuid": "033c88c5-8c84-5f2e-bfa3-425b6320d1e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J10 [J10]",
+                            "pos": {
+                                "x": 3.5,
+                                "y": 1.75
+                            },
+                            "uuid": "5fe57917-9bcb-595b-9216-bed6fa96e3e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J15 [J15]",
+                            "pos": {
+                                "x": 3.5,
+                                "y": 3.2
+                            },
+                            "uuid": "e16f3854-e9ef-58aa-83b9-a73986663fdd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [U1]",
+                            "pos": {
+                                "x": 3.5,
+                                "y": 4.65
+                            },
+                            "uuid": "4deeed47-7593-5bfe-80f5-a19d4a1c0f00"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol R5 [R5]",
+                            "pos": {
+                                "x": 3.5,
+                                "y": 6.1
+                            },
+                            "uuid": "6210796d-5ddd-5351-8514-0f1c8316efba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol C4 [C4]",
+                            "pos": {
+                                "x": 3.5,
+                                "y": 7.55
+                            },
+                            "uuid": "e87d49a8-3fb5-5d74-9bb4-8701452ff1c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "main-control.kicad_sch"
+}

@@ -1,0 +1,1407 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-10T14:57:05",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "line-ring.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2847 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "a8909912-cb2f-4220-83ab-a206b64487d2"
+                },
+                {
+                    "description": "Track [GND] on In1.Cu, length 12.2765 mm",
+                    "pos": {
+                        "x": 45.6991,
+                        "y": 124.6051
+                    },
+                    "uuid": "122fb292-3a46-45cb-a4c1-1a14a08af666"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2847 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "a8909912-cb2f-4220-83ab-a206b64487d2"
+                },
+                {
+                    "description": "Track [GND] on In1.Cu, length 11.8705 mm",
+                    "pos": {
+                        "x": 54.0928,
+                        "y": 132.998799
+                    },
+                    "uuid": "2085af85-97ea-4229-95bc-b1fd68a12f75"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4068 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "a8909912-cb2f-4220-83ab-a206b64487d2"
+                },
+                {
+                    "description": "Track [LINE_CTRL] on In1.Cu, length 11.9823 mm",
+                    "pos": {
+                        "x": 45.7,
+                        "y": 75.6902
+                    },
+                    "uuid": "6b892038-4281-4bc9-b61f-c2f85cb5607f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4068 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "a8909912-cb2f-4220-83ab-a206b64487d2"
+                },
+                {
+                    "description": "Track [LINE_CTRL] on In1.Cu, length 11.3038 mm",
+                    "pos": {
+                        "x": 53.693,
+                        "y": 67.6972
+                    },
+                    "uuid": "869b8a30-3528-42c5-88d4-34d24f22fe0c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3030 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "a8909912-cb2f-4220-83ab-a206b64487d2"
+                },
+                {
+                    "description": "Track [LINE_CTRL] on In2.Cu, length 11.4727 mm",
+                    "pos": {
+                        "x": 78.8187,
+                        "y": 44.2939
+                    },
+                    "uuid": "461327c1-7742-4d0a-a37c-80951a45bfcf"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3030 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "a8909912-cb2f-4220-83ab-a206b64487d2"
+                },
+                {
+                    "description": "Track [LINE_CTRL] on In2.Cu, length 12.4765 mm",
+                    "pos": {
+                        "x": 91.2952,
+                        "y": 44.2939
+                    },
+                    "uuid": "f224035e-6560-4b0e-bb74-e462484835dd"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2252 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 53.805999,
+                        "y": 119.134
+                    },
+                    "uuid": "42b19df8-4fed-4bae-9ba1-ff2f01ed86ca"
+                },
+                {
+                    "description": "Track [SENSE_9] on In1.Cu, length 3.0033 mm",
+                    "pos": {
+                        "x": 53.5058,
+                        "y": 117.2071
+                    },
+                    "uuid": "ef97e27f-e3df-42b5-a4a2-f2929406b5af"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2825 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 96.7994,
+                        "y": 87.0712
+                    },
+                    "uuid": "3c957ac5-5edc-4f3a-8e2c-6b41e803e0f3"
+                },
+                {
+                    "description": "Track [SENSE_5] on In1.Cu, length 12.3179 mm",
+                    "pos": {
+                        "x": 75.9962,
+                        "y": 96.1558
+                    },
+                    "uuid": "2f9f9c53-a9c9-4951-a508-6dec24176611"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2519 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 96.7994,
+                        "y": 87.0712
+                    },
+                    "uuid": "3c957ac5-5edc-4f3a-8e2c-6b41e803e0f3"
+                },
+                {
+                    "description": "Track [SENSE_5] on In1.Cu, length 0.3017 mm",
+                    "pos": {
+                        "x": 51.5929,
+                        "y": 87.4457
+                    },
+                    "uuid": "578c12bb-3a73-48b9-94a8-6799302b4463"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2242 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 96.7994,
+                        "y": 87.0712
+                    },
+                    "uuid": "3c957ac5-5edc-4f3a-8e2c-6b41e803e0f3"
+                },
+                {
+                    "description": "Track [SENSE_5] on In1.Cu, length 9.0470 mm",
+                    "pos": {
+                        "x": 51.3796,
+                        "y": 87.2324
+                    },
+                    "uuid": "7f83288e-2b41-4f45-b65d-69619704da47"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2825 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 96.7994,
+                        "y": 87.0712
+                    },
+                    "uuid": "3c957ac5-5edc-4f3a-8e2c-6b41e803e0f3"
+                },
+                {
+                    "description": "Track [SENSE_5] on In1.Cu, length 15.6932 mm",
+                    "pos": {
+                        "x": 67.2861,
+                        "y": 87.4457
+                    },
+                    "uuid": "e5254d2e-ca0d-462c-a3a4-1fe0d0bdaa16"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3081 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 97.0026,
+                        "y": 83.439
+                    },
+                    "uuid": "42991099-02a4-4031-822d-b0ac71998a4c"
+                },
+                {
+                    "description": "Track [SENSE_4] on In1.Cu, length 2.5238 mm",
+                    "pos": {
+                        "x": 97.3857,
+                        "y": 86.7235
+                    },
+                    "uuid": "5eb2a1e0-8982-4a58-9e28-d779de8d7d7f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3081 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 97.0026,
+                        "y": 83.439
+                    },
+                    "uuid": "42991099-02a4-4031-822d-b0ac71998a4c"
+                },
+                {
+                    "description": "Track [SENSE_4] on In1.Cu, length 0.9837 mm",
+                    "pos": {
+                        "x": 97.3857,
+                        "y": 84.1997
+                    },
+                    "uuid": "6271ee6b-0c04-4b17-a184-60565d3ba094"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2687 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 96.7994,
+                        "y": 87.0712
+                    },
+                    "uuid": "3c957ac5-5edc-4f3a-8e2c-6b41e803e0f3"
+                },
+                {
+                    "description": "Track [SENSE_4] on In1.Cu, length 1.3067 mm",
+                    "pos": {
+                        "x": 96.4617,
+                        "y": 87.9303
+                    },
+                    "uuid": "d067ba66-1917-481c-bed6-abd08fc3754d"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4899 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 96.7994,
+                        "y": 87.0712
+                    },
+                    "uuid": "3c957ac5-5edc-4f3a-8e2c-6b41e803e0f3"
+                },
+                {
+                    "description": "Track [SENSE_4] on In1.Cu, length 0.2828 mm",
+                    "pos": {
+                        "x": 97.3857,
+                        "y": 87.0063
+                    },
+                    "uuid": "e2ed623a-d9db-40bb-8a68-35e8e378c947"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2268 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "e8cef075-e700-4824-b759-f1dd429c76e5"
+                },
+                {
+                    "description": "Track [SENSE_4] on In1.Cu, length 7.4897 mm",
+                    "pos": {
+                        "x": 98.0813,
+                        "y": 50.7648
+                    },
+                    "uuid": "fb131b67-d249-4231-96e4-c6403570ddbf"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2613 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "0dfdaacb-f1c1-4dea-92ef-05355c365865"
+                },
+                {
+                    "description": "Track [SENSE_2] on In1.Cu, length 1.7825 mm",
+                    "pos": {
+                        "x": 106.424,
+                        "y": 50.0812
+                    },
+                    "uuid": "0e6dbf5b-4fc0-4fb3-80b5-1a5f47430d1f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2613 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "0dfdaacb-f1c1-4dea-92ef-05355c365865"
+                },
+                {
+                    "description": "Track [SENSE_2] on In1.Cu, length 18.6535 mm",
+                    "pos": {
+                        "x": 125.0775,
+                        "y": 50.0812
+                    },
+                    "uuid": "a1f6909a-97f9-44bb-b612-0c353e40fa45"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2184 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "0dfdaacb-f1c1-4dea-92ef-05355c365865"
+                },
+                {
+                    "description": "Track [SENSE_1] on In1.Cu, length 4.9176 mm",
+                    "pos": {
+                        "x": 145.1832,
+                        "y": 77.8547
+                    },
+                    "uuid": "13a3c11b-16c2-479e-81b0-1d0e2338f815"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2651 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "0dfdaacb-f1c1-4dea-92ef-05355c365865"
+                },
+                {
+                    "description": "Track [SENSE_1] on In1.Cu, length 6.7861 mm",
+                    "pos": {
+                        "x": 148.6605,
+                        "y": 81.332
+                    },
+                    "uuid": "375797a9-9159-4223-85d4-979cd7bdd703"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2184 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "0dfdaacb-f1c1-4dea-92ef-05355c365865"
+                },
+                {
+                    "description": "Track [SENSE_1] on In1.Cu, length 2.6187 mm",
+                    "pos": {
+                        "x": 145.1832,
+                        "y": 75.236
+                    },
+                    "uuid": "b291eef2-1ef3-48ba-8e76-c4a382d20176"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4263 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 93.472,
+                        "y": 132.841999
+                    },
+                    "uuid": "f8c2ce9b-cbe6-4f1c-8d65-e6ba5993f12c"
+                },
+                {
+                    "description": "Via [SENSE_10] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 93.9872,
+                        "y": 150.0857
+                    },
+                    "uuid": "adc8c6ac-ea87-403e-8bee-eb706dc6c13d"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4152 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 81.28,
+                        "y": 132.841999
+                    },
+                    "uuid": "eddd805e-bd29-4744-8dcd-57df6ec4c3fb"
+                },
+                {
+                    "description": "Track [SENSE_10] on In1.Cu, length 32.2865 mm",
+                    "pos": {
+                        "x": 93.9872,
+                        "y": 117.7992
+                    },
+                    "uuid": "b7b21f59-b827-441d-a1c4-c686d6341f0e"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4135 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 93.472,
+                        "y": 132.841999
+                    },
+                    "uuid": "f8c2ce9b-cbe6-4f1c-8d65-e6ba5993f12c"
+                },
+                {
+                    "description": "Track [SENSE_10] on In2.Cu, length 13.5527 mm",
+                    "pos": {
+                        "x": 93.9872,
+                        "y": 150.0857
+                    },
+                    "uuid": "e3703878-f2f7-4798-b4ab-aec607aca6c4"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.6130 mm",
+                    "pos": {
+                        "x": 84.3678,
+                        "y": 105.1142
+                    },
+                    "uuid": "11081f4e-3559-4b06-8364-c0867823fa6c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 0.0233 mm",
+                    "pos": {
+                        "x": 84.3445,
+                        "y": 105.1142
+                    },
+                    "uuid": "44209cfe-c1c3-4561-970f-40c155a3d3e7"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.9268 mm",
+                    "pos": {
+                        "x": 155.3482,
+                        "y": 87.6725
+                    },
+                    "uuid": "66139072-4708-4d20-993c-53274bfc5f12"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 0.3717 mm",
+                    "pos": {
+                        "x": 44.3879,
+                        "y": 112.5914
+                    },
+                    "uuid": "6e249436-f60e-46a4-bc9c-9fdbd7805788"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 0.9464 mm",
+                    "pos": {
+                        "x": 85.9808,
+                        "y": 105.1142
+                    },
+                    "uuid": "950fee15-fbb6-47ae-89e0-c6007cca8e46"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.0483 mm",
+                    "pos": {
+                        "x": 44.6507,
+                        "y": 112.3286
+                    },
+                    "uuid": "c727940b-8001-4904-90ca-849a99585448"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.7622 mm",
+                    "pos": {
+                        "x": 82.0,
+                        "y": 105.1142
+                    },
+                    "uuid": "f4b365e8-db8b-43b5-b6bd-daf0cc231e4a"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 0.3732 mm",
+                    "pos": {
+                        "x": 155.6121,
+                        "y": 87.4086
+                    },
+                    "uuid": "fe51d924-843c-4a33-9ab7-69c00da01dcc"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on F.Cu, length 0.3732 mm",
+                    "pos": {
+                        "x": 155.5433,
+                        "y": 88.6533
+                    },
+                    "uuid": "18af4c05-b972-4cf8-9b8e-f70af65f62f7"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on F.Cu, length 1.0464 mm",
+                    "pos": {
+                        "x": 154.6921,
+                        "y": 110.366
+                    },
+                    "uuid": "3362c51f-3ece-4328-895e-fee6bd614c9c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on F.Cu, length 1.0329 mm",
+                    "pos": {
+                        "x": 154.5104,
+                        "y": 88.6533
+                    },
+                    "uuid": "46aed3b0-ba4c-4bd1-813b-51b76ed1540a"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on F.Cu, length 0.3731 mm",
+                    "pos": {
+                        "x": 155.7385,
+                        "y": 110.366
+                    },
+                    "uuid": "68cc1513-6119-45bc-b5be-353df5cb79b4"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on F.Cu, length 0.3755 mm",
+                    "pos": {
+                        "x": 44.1928,
+                        "y": 111.6106
+                    },
+                    "uuid": "a159234d-3931-45db-9e5b-feac1cd007b9"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on F.Cu, length 0.2705 mm",
+                    "pos": {
+                        "x": 67.9167,
+                        "y": 52.884
+                    },
+                    "uuid": "b288bd92-9001-4d4b-9ef8-4310c6a7a1f9"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on F.Cu, length 1.0300 mm",
+                    "pos": {
+                        "x": 44.4583,
+                        "y": 111.3451
+                    },
+                    "uuid": "b6c9112a-ae21-4639-b87a-a9d4f58c4d16"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on F.Cu, length 1.5172 mm",
+                    "pos": {
+                        "x": 67.9167,
+                        "y": 53.1545
+                    },
+                    "uuid": "b94f63c2-1e31-4117-9b71-0b0c6a29f846"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_7] on F.Cu, length 0.3732 mm",
+                    "pos": {
+                        "x": 44.4567,
+                        "y": 88.6533
+                    },
+                    "uuid": "1f06e94d-75ab-4e8b-a56b-47b4f344b921"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_7] on F.Cu, length 1.3754 mm",
+                    "pos": {
+                        "x": 45.8321,
+                        "y": 88.6533
+                    },
+                    "uuid": "5156d6ab-1b23-4b69-b871-190835a34da4"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LINE_CTRL] on F.Cu, length 0.5384 mm",
+                    "pos": {
+                        "x": 148.7656,
+                        "y": 69.5797
+                    },
+                    "uuid": "6b211f3c-fbf4-4ba5-bd7c-080c7a68725e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LINE_CTRL] on F.Cu, length 0.3732 mm",
+                    "pos": {
+                        "x": 44.6518,
+                        "y": 87.6725
+                    },
+                    "uuid": "8137c608-5742-4e79-bbf5-bd272cb71741"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LINE_CTRL] on F.Cu, length 0.5385 mm",
+                    "pos": {
+                        "x": 148.2271,
+                        "y": 69.5797
+                    },
+                    "uuid": "8e9ace9b-4dc4-48f9-967c-1da674290d41"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LINE_CTRL] on F.Cu, length 1.0482 mm",
+                    "pos": {
+                        "x": 45.7,
+                        "y": 87.6725
+                    },
+                    "uuid": "b315280c-8c13-4a2b-be30-df44d132740b"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LINE_CTRL] on F.Cu, length 0.3732 mm",
+                    "pos": {
+                        "x": 155.3482,
+                        "y": 112.3275
+                    },
+                    "uuid": "b6295368-5484-49f8-9e86-40f52a90951c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LINE_CTRL] on F.Cu, length 1.0501 mm",
+                    "pos": {
+                        "x": 154.2981,
+                        "y": 112.3275
+                    },
+                    "uuid": "fe487417-7ed2-4152-868d-71385e4be17e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LINE_S0] on F.Cu, length 1.2612 mm",
+                    "pos": {
+                        "x": 75.4196,
+                        "y": 105.1142
+                    },
+                    "uuid": "1ad343af-464d-4c60-a730-0f64dff62e38"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LINE_S0] on F.Cu, length 0.9464 mm",
+                    "pos": {
+                        "x": 76.6808,
+                        "y": 105.1142
+                    },
+                    "uuid": "8211ea9d-9780-476b-bb24-f438941432cf"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LINE_S0] on In2.Cu, length 1.6882 mm",
+                    "pos": {
+                        "x": 113.3483,
+                        "y": 92.2752
+                    },
+                    "uuid": "27181966-3d17-4aae-a681-9cd4f5b07747"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LINE_S0] on In2.Cu, length 0.3527 mm",
+                    "pos": {
+                        "x": 111.6601,
+                        "y": 92.2752
+                    },
+                    "uuid": "fae7cdb8-b2ae-42b9-8f59-e390dd951391"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_9] on F.Cu, length 1.8827 mm",
+                    "pos": {
+                        "x": 53.6598,
+                        "y": 129.5473
+                    },
+                    "uuid": "479a688a-7904-40b2-8379-264fc2dd8f26"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_9] on F.Cu, length 0.3732 mm",
+                    "pos": {
+                        "x": 52.3285,
+                        "y": 130.8786
+                    },
+                    "uuid": "4b3cf8dc-43de-47c4-8014-eab9a0eb79d2"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_9] on In1.Cu, length 3.0033 mm",
+                    "pos": {
+                        "x": 53.5058,
+                        "y": 117.2071
+                    },
+                    "uuid": "ef97e27f-e3df-42b5-a4a2-f2929406b5af"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_8] on F.Cu, length 0.4616 mm",
+                    "pos": {
+                        "x": 45.0261,
+                        "y": 110.6298
+                    },
+                    "uuid": "9636a244-5170-474d-b928-e8b5961513c7"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_8] on F.Cu, length 1.0284 mm",
+                    "pos": {
+                        "x": 43.9977,
+                        "y": 110.6298
+                    },
+                    "uuid": "a310795e-0aa6-4ec9-8165-097355bbfc7f"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_5] on F.Cu, length 0.6846 mm",
+                    "pos": {
+                        "x": 75.9962,
+                        "y": 96.1558
+                    },
+                    "uuid": "af671395-3a02-43e0-bde1-56b8e75cdb6b"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_5] on F.Cu, length 0.9464 mm",
+                    "pos": {
+                        "x": 76.6808,
+                        "y": 96.1558
+                    },
+                    "uuid": "df1b4241-52f6-4855-b997-4ec19c43f675"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_4] on F.Cu, length 0.9464 mm",
+                    "pos": {
+                        "x": 78.0192,
+                        "y": 97.4258
+                    },
+                    "uuid": "47c8a165-11bd-4604-80a0-8ebe65157543"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_4] on F.Cu, length 1.6465 mm",
+                    "pos": {
+                        "x": 79.6657,
+                        "y": 97.4258
+                    },
+                    "uuid": "fcc66faa-9c2a-4c48-a59e-9a48a89e019c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_4] on In1.Cu, length 2.5238 mm",
+                    "pos": {
+                        "x": 97.3857,
+                        "y": 86.7235
+                    },
+                    "uuid": "5eb2a1e0-8982-4a58-9e28-d779de8d7d7f"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_4] on In1.Cu, length 0.9837 mm",
+                    "pos": {
+                        "x": 97.3857,
+                        "y": 84.1997
+                    },
+                    "uuid": "6271ee6b-0c04-4b17-a184-60565d3ba094"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_11] on F.Cu, length 0.6995 mm",
+                    "pos": {
+                        "x": 88.0187,
+                        "y": 98.7642
+                    },
+                    "uuid": "1715d0a6-8b02-477b-9211-95b6f18419a9"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_11] on F.Cu, length 0.9464 mm",
+                    "pos": {
+                        "x": 87.3192,
+                        "y": 98.7642
+                    },
+                    "uuid": "a07ebb24-8050-49bc-9850-4b69cef2afa9"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_11] on In1.Cu, length 0.9466 mm",
+                    "pos": {
+                        "x": 98.1767,
+                        "y": 146.4744
+                    },
+                    "uuid": "a86d7f97-1937-4c4e-968b-1c8ed74c1faf"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_11] on In1.Cu, length 2.3233 mm",
+                    "pos": {
+                        "x": 96.5339,
+                        "y": 148.1172
+                    },
+                    "uuid": "d370f760-163b-4386-b778-12b769755dd8"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_12] on F.Cu, length 0.9341 mm",
+                    "pos": {
+                        "x": 86.65,
+                        "y": 99.365
+                    },
+                    "uuid": "5a0568ec-4683-4c2b-b475-51ca14586ef0"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_12] on F.Cu, length 0.6816 mm",
+                    "pos": {
+                        "x": 87.3105,
+                        "y": 100.0255
+                    },
+                    "uuid": "98e1cb28-b99d-4656-8d92-b136d31c7f40"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_12] on In1.Cu, length 29.5185 mm",
+                    "pos": {
+                        "x": 110.6298,
+                        "y": 125.1627
+                    },
+                    "uuid": "d0e91eb8-d913-4e87-8c87-8b7002c43a60"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_12] on In1.Cu, length 1.9049 mm",
+                    "pos": {
+                        "x": 109.2828,
+                        "y": 123.8157
+                    },
+                    "uuid": "d755456b-c4a7-44a7-b9f1-7a9ea468a611"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_6] on F.Cu, length 18.2158 mm",
+                    "pos": {
+                        "x": 76.6808,
+                        "y": 94.8858
+                    },
+                    "uuid": "1965d7c5-e3a8-44d3-a452-17a725a91402"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_6] on F.Cu, length 0.9464 mm",
+                    "pos": {
+                        "x": 77.35,
+                        "y": 95.555
+                    },
+                    "uuid": "aad37893-46b7-4781-b113-4d4da10b6736"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_3] on F.Cu, length 0.9464 mm",
+                    "pos": {
+                        "x": 77.35,
+                        "y": 99.365
+                    },
+                    "uuid": "129ed71d-022c-4116-b55d-4489165649e3"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_3] on F.Cu, length 1.6484 mm",
+                    "pos": {
+                        "x": 78.0192,
+                        "y": 98.6958
+                    },
+                    "uuid": "d63539ce-b79c-4ee0-969c-d6b89dc8d495"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_2] on F.Cu, length 0.9464 mm",
+                    "pos": {
+                        "x": 77.35,
+                        "y": 100.635
+                    },
+                    "uuid": "cd995457-8ac7-4509-b122-ea084b1c6bbc"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SENSE_2] on F.Cu, length 7.2590 mm",
+                    "pos": {
+                        "x": 78.0192,
+                        "y": 99.9658
+                    },
+                    "uuid": "e6d8e49c-8d96-46d9-864e-0425a28aab9e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 148.295448,
+                        "y": 87.056072
+                    },
+                    "uuid": "0de33a3a-ab93-4030-9a95-99e0931ba330"
+                },
+                {
+                    "description": "Reference field of J1",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 87.45
+                    },
+                    "uuid": "a7d7fad2-1395-4505-8354-31d536e9f043"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}

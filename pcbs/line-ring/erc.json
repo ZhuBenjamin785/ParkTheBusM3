@@ -1,0 +1,412 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-10T14:57:32",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/6acaaae8-fcc5-53b4-9b6c-32d934c8d08c",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [U1]",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.3048
+                            },
+                            "uuid": "ddc1e353-c20a-5565-a583-01a54bea6f7c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J5 [J5]",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 1.8288
+                            },
+                            "uuid": "da8101c0-7afb-52a4-b8dd-8a80afaf1279"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J10 [J10]",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 3.3528
+                            },
+                            "uuid": "c645179b-c377-5399-8c9e-74590c3f79d2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J15 [J15]",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 4.8768
+                            },
+                            "uuid": "918c3631-70a2-555c-b0c6-791b4ab46a3b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol R1 [R1]",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 6.4008
+                            },
+                            "uuid": "e1e9b8e9-cc5b-5af8-9460-b757c949f754"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [J1]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.3048
+                            },
+                            "uuid": "d3af8f6f-51ea-5606-9085-7f4192a5df06"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J6 [J6]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 1.8288
+                            },
+                            "uuid": "4508301c-e99b-56a9-a7a4-441e664ae04d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J11 [J11]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 3.3528
+                            },
+                            "uuid": "02384429-6052-58e8-b549-ccaec7d8f761"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J16 [J16]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 4.8768
+                            },
+                            "uuid": "2c80ef20-099c-5306-8604-9ab14a6de47c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol R2 [R2]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 6.4008
+                            },
+                            "uuid": "6a8bbfec-50cc-55b9-a984-8348a4b0f2a0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [J2]",
+                            "pos": {
+                                "x": 1.8288,
+                                "y": 0.3048
+                            },
+                            "uuid": "1731bc28-a350-5758-a8c6-93b5bebccccd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J7 [J7]",
+                            "pos": {
+                                "x": 1.8288,
+                                "y": 1.8288
+                            },
+                            "uuid": "4debf654-aa61-5404-adf5-e450887c1197"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J12 [J12]",
+                            "pos": {
+                                "x": 1.8288,
+                                "y": 3.3528
+                            },
+                            "uuid": "a5a8957b-139b-560b-bf6d-97e7cf9afe0f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J17 [J17]",
+                            "pos": {
+                                "x": 1.8288,
+                                "y": 4.8768
+                            },
+                            "uuid": "303d7d29-a3ae-5a32-b51e-73381aab848f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol R3 [R3]",
+                            "pos": {
+                                "x": 1.8288,
+                                "y": 6.4008
+                            },
+                            "uuid": "b16f7f01-5022-5b09-a7d4-a3526c4550d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J3 [J3]",
+                            "pos": {
+                                "x": 2.5908,
+                                "y": 0.3048
+                            },
+                            "uuid": "6f00f6df-0ba6-5608-b736-79ae0e64df23"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J8 [J8]",
+                            "pos": {
+                                "x": 2.5908,
+                                "y": 1.8288
+                            },
+                            "uuid": "632bd301-34ff-5d0b-83ed-4d8f47ad1e09"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J13 [J13]",
+                            "pos": {
+                                "x": 2.5908,
+                                "y": 3.3528
+                            },
+                            "uuid": "d9dfbdaf-ce3f-505e-9c25-739a4cba49ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol C1 [C1]",
+                            "pos": {
+                                "x": 2.5908,
+                                "y": 4.8768
+                            },
+                            "uuid": "0c28efd1-79b6-5e5f-a1d4-6c8859df0848"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol R4 [R4]",
+                            "pos": {
+                                "x": 2.5908,
+                                "y": 6.4008
+                            },
+                            "uuid": "a57b10ac-5074-50d8-af5b-374db7c910d9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J4 [J4]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.3048
+                            },
+                            "uuid": "21ee8d25-22d5-5cef-a1cc-59ff5139ea85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J9 [J9]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.8288
+                            },
+                            "uuid": "0593d420-3199-56ae-ae5b-ef9f174dd08d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol J14 [J14]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 3.3528
+                            },
+                            "uuid": "50663165-8a61-5c59-ad48-e3e2c388fc65"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol C2 [C2]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 4.8768
+                            },
+                            "uuid": "e984e690-22be-52e9-b106-7f81e579cabe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'THEBUS'",
+                    "items": [
+                        {
+                            "description": "Symbol R5 [R5]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 6.4008
+                            },
+                            "uuid": "d3ac200f-a10e-5a90-9ec5-d6221347bdd5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "line-ring.kicad_sch"
+}
