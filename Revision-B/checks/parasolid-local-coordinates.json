@@ -1,0 +1,80 @@
+{
+  "Omniwheel Adapter": {
+    "matched_points": 21,
+    "local_vertex_min_mm": [
+      -6.928,
+      -4.0,
+      0.0
+    ],
+    "local_vertex_max_mm": [
+      6.928,
+      7.0,
+      6.5
+    ]
+  },
+  "Omniwheel V2": {
+    "matched_points": 1330,
+    "local_vertex_min_mm": [
+      -21.135,
+      -21.197,
+      0.0
+    ],
+    "local_vertex_max_mm": [
+      21.135,
+      21.197,
+      13.0
+    ]
+  },
+  "Mirror Housing V2": {
+    "matched_points": 1,
+    "local_vertex_min_mm": [
+      -0.0,
+      0.0,
+      100.795
+    ],
+    "local_vertex_max_mm": [
+      -0.0,
+      0.0,
+      100.795
+    ]
+  },
+  "Ball Sensor Shield": {
+    "matched_points": 3440,
+    "local_vertex_min_mm": [
+      -63.039,
+      -63.039,
+      -3.5
+    ],
+    "local_vertex_max_mm": [
+      63.039,
+      63.039,
+      12.6
+    ]
+  },
+  "Main Robot": {
+    "matched_points": 4227,
+    "local_vertex_min_mm": [
+      -104.993,
+      -101.306,
+      -9.75
+    ],
+    "local_vertex_max_mm": [
+      148.295,
+      96.617,
+      30.0
+    ]
+  },
+  "Main Robot(1)": {
+    "matched_points": 8663,
+    "local_vertex_min_mm": [
+      -104.993,
+      -101.306,
+      0.0
+    ],
+    "local_vertex_max_mm": [
+      104.981,
+      96.617,
+      127.416
+    ]
+  }
+}

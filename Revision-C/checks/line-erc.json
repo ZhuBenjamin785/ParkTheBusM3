@@ -1,0 +1,91 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-23T12:44:46",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/120dba8e-f04e-51c4-b4dc-46bf9a85be72",
+            "violations": []
+        },
+        {
+            "path": "/Local Teensy 4.0 and main-board UART/",
+            "uuid_path": "/120dba8e-f04e-51c4-b4dc-46bf9a85be72/265c4a09-5075-5044-b4f4-e2a67c9dc6f3",
+            "violations": []
+        },
+        {
+            "path": "/Optical flow, lidar and auxiliary serial/",
+            "uuid_path": "/120dba8e-f04e-51c4-b4dc-46bf9a85be72/ed4428b5-3719-5559-9b7a-40c52e4d7591",
+            "violations": []
+        },
+        {
+            "path": "/Two current-switched emitter banks/",
+            "uuid_path": "/120dba8e-f04e-51c4-b4dc-46bf9a85be72/d015cb5d-c46c-57b0-96c0-aa654f13001e",
+            "violations": []
+        },
+        {
+            "path": "/ADC 0 and line channels 0 through 7/",
+            "uuid_path": "/120dba8e-f04e-51c4-b4dc-46bf9a85be72/f1313ea1-a551-5793-bff1-f11a71845716",
+            "violations": []
+        },
+        {
+            "path": "/ADC 1 and line channels 8 through 15/",
+            "uuid_path": "/120dba8e-f04e-51c4-b4dc-46bf9a85be72/0e3a0d67-8259-5ee2-b565-5ac346055805",
+            "violations": []
+        },
+        {
+            "path": "/ADC 2 and line channels 16 through 23/",
+            "uuid_path": "/120dba8e-f04e-51c4-b4dc-46bf9a85be72/e10e8b4a-cdb1-5f6b-ba35-63ad31778acc",
+            "violations": []
+        },
+        {
+            "path": "/ADC 3 and line channels 24 through 31/",
+            "uuid_path": "/120dba8e-f04e-51c4-b4dc-46bf9a85be72/65b9fd55-95bb-5615-a5b4-014520dac553",
+            "violations": []
+        },
+        {
+            "path": "/ADC 4 and line channels 32 through 39/",
+            "uuid_path": "/120dba8e-f04e-51c4-b4dc-46bf9a85be72/50029ccc-7eb8-5865-979e-0d41bb97773d",
+            "violations": []
+        },
+        {
+            "path": "/ADC 5 and line channels 40 through 47/",
+            "uuid_path": "/120dba8e-f04e-51c4-b4dc-46bf9a85be72/0df8f6a1-4dda-50c7-807b-c35934e6a5ce",
+            "violations": []
+        },
+        {
+            "path": "/ADC 6 and line channels 48 through 55/",
+            "uuid_path": "/120dba8e-f04e-51c4-b4dc-46bf9a85be72/c332a93d-3a15-5a73-b245-1cb1221c5539",
+            "violations": []
+        },
+        {
+            "path": "/ADC 7 and line channels 56 through 63/",
+            "uuid_path": "/120dba8e-f04e-51c4-b4dc-46bf9a85be72/e2ec3e31-4b9d-5d26-93ed-07ea917b9be6",
+            "violations": []
+        }
+    ],
+    "source": "line-ring.kicad_sch"
+}

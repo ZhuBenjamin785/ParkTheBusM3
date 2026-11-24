@@ -1,0 +1,71 @@
+{
+  "optical_model_z_max_mm": 1.45,
+  "ring_underside_z": 2.95,
+  "carrier_bottom_z": 50.55,
+  "main_underside_z": 62.55,
+  "ring_bbox_at_floor_datum": [
+    -66.0,
+    -60.0001,
+    1.415,
+    60.0001,
+    60.0001,
+    13.645
+  ],
+  "main_bbox_at_floor_datum": [
+    -60.0,
+    -60.0,
+    60.745,
+    60.0,
+    60.0,
+    73.245
+  ],
+  "carrier_bbox": [
+    -65.6,
+    -51.428,
+    50.55,
+    52.444,
+    48.1477,
+    52.55
+  ],
+  "ring_to_carrier_mm": 41.971,
+  "carrier_to_main_mm": 8.195,
+  "line_holes": [
+    [
+      -62,
+      0
+    ],
+    [
+      0.076,
+      -47.828
+    ],
+    [
+      48.844,
+      -0.711
+    ]
+  ],
+  "main_holes": [
+    [
+      -44.5477272147525,
+      -44.5477272147525
+    ],
+    [
+      44.5477272147525,
+      -44.5477272147525
+    ],
+    [
+      44.5477272147525,
+      44.5477272147525
+    ],
+    [
+      -44.5477272147525,
+      44.5477272147525
+    ]
+  ],
+  "proposed_drive": {
+    "motor_to_adjacent_module_min_mm": 10.253,
+    "module_to_populated_ring_min_mm": 1.219,
+    "module_to_carrier_min_mm": 2.55,
+    "module_to_spacer_min_mm": 4.55,
+    "wheel_envelope_diameter_mm": 178.09
+  }
+}

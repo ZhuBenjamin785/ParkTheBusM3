@@ -1,0 +1,91 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-23T12:44:43",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/4108a558-0bbe-5bf5-89e3-2870558a5e70",
+            "violations": []
+        },
+        {
+            "path": "/Teensy 4.1 and power entry/",
+            "uuid_path": "/4108a558-0bbe-5bf5-89e3-2870558a5e70/a395de34-40f9-5c63-8f49-65dc038e4ad6",
+            "violations": []
+        },
+        {
+            "path": "/Referee, local RUN switch and heartbeat/",
+            "uuid_path": "/4108a558-0bbe-5bf5-89e3-2870558a5e70/c4229226-3bb7-57bf-ae00-ae12d39a9148",
+            "violations": []
+        },
+        {
+            "path": "/Vision, line processor and heading/",
+            "uuid_path": "/4108a558-0bbe-5bf5-89e3-2870558a5e70/70fe6195-d5bc-5f8e-98ee-4725f1b1bb05",
+            "violations": []
+        },
+        {
+            "path": "/Role, ball gate and auxiliary UART/",
+            "uuid_path": "/4108a558-0bbe-5bf5-89e3-2870558a5e70/cb44f5ef-fce8-5eb3-9841-65ef0a8301cf",
+            "violations": []
+        },
+        {
+            "path": "/Switched pack voltage measurement/",
+            "uuid_path": "/4108a558-0bbe-5bf5-89e3-2870558a5e70/e9c30a59-80f5-5ad6-9bbd-3bd47c4d1e97",
+            "violations": []
+        },
+        {
+            "path": "/Quadrature levels and driver fault/",
+            "uuid_path": "/4108a558-0bbe-5bf5-89e3-2870558a5e70/6d169877-02cf-56fe-9c16-8aa4f3848b76",
+            "violations": []
+        },
+        {
+            "path": "/Wheel 1 drive and encoder/",
+            "uuid_path": "/4108a558-0bbe-5bf5-89e3-2870558a5e70/4adc73af-877a-505b-8500-39f3492ae9d0",
+            "violations": []
+        },
+        {
+            "path": "/Wheel 2 drive and encoder/",
+            "uuid_path": "/4108a558-0bbe-5bf5-89e3-2870558a5e70/5140cda2-7523-54a1-8d31-fcbbe489541e",
+            "violations": []
+        },
+        {
+            "path": "/Wheel 3 drive and encoder/",
+            "uuid_path": "/4108a558-0bbe-5bf5-89e3-2870558a5e70/614b4ad7-f7e7-5d0d-8b7f-dcfc23ff4d94",
+            "violations": []
+        },
+        {
+            "path": "/Wheel 4 drive and encoder/",
+            "uuid_path": "/4108a558-0bbe-5bf5-89e3-2870558a5e70/9c899e7d-3f7f-5a4e-86db-d3f59b9ed29c",
+            "violations": []
+        },
+        {
+            "path": "/Dribbler drive and encoder/",
+            "uuid_path": "/4108a558-0bbe-5bf5-89e3-2870558a5e70/10e1314f-1908-5d60-9374-1e94dd051021",
+            "violations": []
+        }
+    ],
+    "source": "main-control.kicad_sch"
+}

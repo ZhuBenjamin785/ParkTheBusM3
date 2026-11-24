@@ -1,0 +1,14 @@
+Revision B firmware verification | 23 November 2026
+
+Teensy 4.1 release builds, PlatformIO Teensy 5.0.0, Teensyduino 1.59, ARM GCC 11.3.1.
+LineBench and MainBench both compiled and linked. Their firmware.hex outputs are included next to the sketches, named for the corresponding sketch.
+
+Host tests with simulated analog and digital inputs passed:
+- Scanning all 32 signed ambient differences in address order
+- Green/white calibration, exclusion of a low-contrast channel
+- Separate white arcs, wrap-around at channels 31/0, interpolation with unequal neighboring signal strengths
+- Five PWM outputs set to zero on stop; startup requires an observed STOP
+- Active control-loop deadline, stale command, driver fault and sensor health cutoffs; restart with STOP then PLAY; millisecond-counter rollover
+- OpenMV candidate and no-candidate frames consumed by the Teensy decoder, CRC rejection, recovery from a shifted stream and a duplicate sequence failing to refresh data age
+
+The OpenMV script ran in a host harness with camera and UART simulators. Motor torque, stopping distance, LED settling, optical classification accuracy, physical emergency-stop timing, thermal behavior and match performance still require bench and field measurements.

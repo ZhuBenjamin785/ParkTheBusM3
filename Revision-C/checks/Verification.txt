@@ -1,0 +1,9 @@
+main-control — 46 populated components. All assigned schematic pins agree with the design and assembly table. Zero KiCad ERC violations, DRC violations, unconnected items, and schematic-to-board mismatches. Verified both drill files and four copper layer plots.
+
+line-ring — 199 populated components. All assigned schematic pins agree with the design and assembly table. Zero KiCad ERC violations, DRC violations, unconnected items, and schematic-to-board mismatches. Verified both drill files and four copper layer plots.
+
+64 optical packages verified individually for side, center position, orientation of the sensing face, channel order and ADC connection. Center-to-center pitch 5.625 degrees, chord 5.398 mm.
+
+Workbook verified for two robots: 490 populated board-component placements, 128 optical sensors and 72 active hyperlink entries. Supplier pricing, inventory and mechanical fit require confirmation at order time.
+
+Target builds passed for Teensy 4.1 and Teensy 4.0. Both release HEX binaries accompany their source. Run python3 checks/run-simulation.py to repeat the simulated optical scan, ADC fault, calibration, persistence, command acknowledgment, CRC rejection, stale link, startup, wheel jog, ball acquisition, boundary retreat, and camera/IMU/driver fault scenarios. The OpenMV producer and main decoder also passed a synthetic two-frame check. No prototype hardware was available for field tests.

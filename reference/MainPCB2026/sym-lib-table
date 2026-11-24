@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TS04-66-70-BK-100-SMT")(type "KiCad")(uri "${KIPRJMOD}/TS04-66-70-BK-100-SMT/TS04-66-70-BK-100-SMT.kicad_sym")(options "")(descr ""))
+)
